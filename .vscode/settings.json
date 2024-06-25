@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "strapi",
+            "database": "${workspaceFolder:my-project}/.tmp/data.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
